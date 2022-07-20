@@ -15,11 +15,12 @@
 /* ------------------------------ */
 
 .navbar {
-  background-color: rgb(130, 141, 171, .8);
+  background-color: rgba(28, 58, 115, 0.5);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 30px 60px 100px 40px;
+  height: 20vh;
 }
 
 .list {
@@ -43,10 +44,41 @@
   padding: 8px 25px;
   color: #fafafa;
 }
+
 /* ------------------------------ */
 /* ---------- HERO ------------ */
 /* ------------------------------ */
 
 .hero {
-  background-color: rgb(130, 141, 171, .8);
+  background-color: rgba(28, 58, 115, 0.5);
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 40px 20px 40px;
+  position: relative;
+  gap: 20px;
+}
+
+.hero-heading {
+  font-family: 'Dela Gothic One', cursive;
+  font-size: 58px;
+  color: #EDC126;
+  letter-spacing: 2px;
+  width: 90%;
+  text-align: center;
+}
+
+.button-large {
+  background-color: #FF6263;
+  border-style: none;
+  padding: 15px 40px;
+  color: #fafafa;
+  font-size: 20px;
+}
+
+.bottom {
+  position: absolute;
+  right: 60px;
+  bottom: 40px;
 }
